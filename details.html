@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details & <Summary></Summary></title>
+    <style>
+        body{
+            margin: 10px;
+        }
+        table{
+            width: 300px;
+        }
+        table, td, th{
+            border: 2px solid black;
+            border-collapse: collapse;
+            margin: 20px;
+        }
+        td, th{
+            padding: 10px;;
+        }
+        .break{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div>
+            <details>
+                <summary>Introduction</summary>
+                <p>A brief Introduction of the project</p>
+            </details>
+    </div>
+
+    <div>
+        <details>
+            <summary>Chapter 1</summary>
+            <p>main purpose of the project</p>
+            <ol type="a">
+                <li>The kind of sofware to be design</li>
+                <li>Using the software to solve real life problem</li>
+                <li>Usefullness of the software to both the community and the developer</li>
+            </ol>
+        </details>
+    </div>
+
+    <div>
+        <details>
+            <summary>Chapter 2</summary>
+            <p>designing the user interface and server side of the software</p>
+            <table>
+            
+                  
+                        <tr>
+                            <td rowspan="7 ">Roadmap</td>
+                            <th>Client side</th>
+                            <th>Server Side</th>
+                        </tr>
+                   
+                
+                    <tr>
+                        <td>html 5</td>
+                        <td>Node js</td>
+                    </tr>
+
+                    <tr>
+                        <td>css 3</td>
+                        <td>PHP</td>
+                    </tr>
+
+                    <tr>
+                        <td>bootstrap 4</td>
+                        <td>SQL</td>
+                    </tr>
+
+                    <tr class="break">
+                        <td colspan="2">Break</td>
+                    </tr>
+
+                    <tr>
+                        <td>javascript</td>
+                        <td>Mongo DB</td>
+                    </tr>
+
+                    <tr>
+                        <td>react</td>
+                        <td></td>
+                    </tr>
+                
+                <caption> Tools to use in designing the software</caption>
+            </table>
+        </details>
+    </div>
+
+    <div>
+        <details>
+            <summary>Chapter 3</summary>
+            <p>conclusion of the project</p>
+            <ul>
+                <li>Testing</li>
+                <li>Deployment</li>
+                <li>Implementation</li>
+                <li>Hosting</li>
+            </ul>
+        </details>
+    </div>
+        
+</body>
+</html>
